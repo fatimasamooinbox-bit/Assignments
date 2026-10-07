@@ -1,0 +1,67 @@
+
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+/* Main heading */
+h1 {
+    color: darkblue;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* Paragraph */
+p {
+    color: #444444;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Sub-heading */
+h2 {
+    color: darkgreen;
+    font-size: 1.8rem;
+}
+
+/* Styled container */
+.website-container {
+    background-color: white;
+    width: 60%;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+/* Website links */
+.website-container a {
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px;
+}
+
+/* Change link appearance when mouse is over it */
+.website-container a:hover {
+    color: white;
+    background-color: darkblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Website image - Box Model */
+.website-image {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 3px solid darkblue;
+    margin: 20px;
+    border-radius: 15px;
+    display: block;
+}
+

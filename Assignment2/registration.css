@@ -1,0 +1,119 @@
+
+/* Page styling */
+body {
+    background-color: #eef4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 5vh 0;
+}
+
+/* Main form container */
+.form-container {
+    position: relative;
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid #2c3e50;
+    border-radius: 12px;
+}
+
+/* Heading */
+h1 {
+    color: #1f4e79;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Form groups */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Text, email, password and date inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #888888;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Gender options */
+.gender-options {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gender-options label,
+.language-options label {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+/* Programming language options */
+.language-options {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #1f4e79;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #777777;
+    color: white;
+}
+
+/* Button hover effect */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,65 @@
+
+/* Element selector */
+body {
+    background-color: #f2f7ff;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+/* ID selector */
+#student-table {
+    width: 80%;
+}
+
+/* Main heading */
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Caption */
+caption {
+    color: darkblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Table header */
+th {
+    background-color: darkblue;
+    color: white;
+    padding: 12px;
+    border: 2px solid #333333;
+    text-align: center;
+}
+
+/* Table data */
+td {
+    color: #333333;
+    padding: 12px;
+    border: 1px solid #777777;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Class selector */
+.total {
+    background-color: #e8f5e9;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+/* Different style for alternate rows */
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
