@@ -1,0 +1,39 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0; font-family: Arial, Helvetica, sans-serif; color: #202938;
+  background: #f3f6fb; line-height: 1.5;
+}
+.page-header { background: #183b67; color: white; padding: 28px 18px; text-align: center; }
+.page-header h1 { margin: 0 0 8px; font-size: clamp(1.6rem, 4vw, 2.3rem); }
+.methods { margin: 0; color: #d9e8ff; letter-spacing: 1px; font-weight: bold; }
+.methods span { padding: 0 7px; color: #7ed8cf; }
+.container { width: min(1100px, 92%); margin: 28px auto; }
+.panel { background: white; border-radius: 12px; padding: 22px; box-shadow: 0 4px 18px #172b4d12; margin-bottom: 28px; }
+h2 { margin-top: 0; }
+label { display: block; margin: 12px 0 5px; font-weight: bold; font-size: .94rem; }
+input, textarea { width: 100%; padding: 11px 12px; border: 1px solid #cbd5e1; border-radius: 7px; font: inherit; background: #fff; }
+input:focus, textarea:focus { outline: 2px solid #93c5fd; border-color: #2563eb; }
+textarea { resize: vertical; }
+.button-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+button { border: 0; border-radius: 7px; padding: 10px 14px; color: white; background: #2563eb; cursor: pointer; font-weight: bold; }
+button:hover { filter: brightness(.93); }
+button:disabled { opacity: .55; cursor: wait; }
+button.secondary { background: #475569; }
+button.danger { background: #b91c1c; }
+button.green { background: #047857; }
+button.orange { background: #b45309; }
+.message { min-height: 1.5em; margin-bottom: 0; font-weight: bold; }
+.message.error { color: #b91c1c; }
+.message.success { color: #047857; }
+.status-log { color: #475569; font-size: .9rem; margin: 4px 0 0; }
+.section-heading { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.section-heading span { color: #64748b; }
+.posts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 16px; }
+.post-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px; box-shadow: 0 3px 12px #172b4d0b; overflow-wrap: anywhere; }
+.post-meta { display: flex; justify-content: space-between; color: #64748b; font-size: .82rem; gap: 8px; }
+.post-card h3 { margin: 12px 0 8px; color: #183b67; }
+.post-card p { white-space: pre-wrap; }
+.card-actions { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
+.card-actions button { font-size: .78rem; padding: 8px 10px; }
+.hint { color: #64748b; font-size: .86rem; }
+@media (max-width: 520px) { .panel { padding: 16px; } .button-row button { width: 100%; } }

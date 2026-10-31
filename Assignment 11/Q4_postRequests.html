@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post Request Practice</title>
+  <link rel="stylesheet" href="Q4_postRequests.css">
+  <script src="Q4_postRequests.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">JAVASCRIPT • FETCH API</p>
+    <h1>Create and Update a Post</h1>
+    <p>Practice POST, PUT, PATCH, and DELETE requests.</p>
+  </header>
+  <main class="container">
+    <section class="panel">
+      <h2>Create a new post</h2>
+      <form id="postForm">
+        <label for="title">Title</label>
+        <input id="title" name="title" type="text" placeholder="Announcement title" required>
+        <label for="content">Content</label>
+        <textarea id="content" name="content" rows="4" placeholder="Write the announcement..." required></textarea>
+        <label for="userId">User ID</label>
+        <input id="userId" name="userId" type="number" min="1" value="1" required>
+        <button id="createButton" type="submit">Send POST request</button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2>Update or delete post 1</h2>
+      <p class="note">These buttons send requests to <code>/posts/1</code>. JSONPlaceholder demonstrates the response but does not permanently change its data.</p>
+      <div class="actions">
+        <button id="putButton" type="button" class="orange">Send PUT</button>
+        <button id="patchButton" type="button" class="green">Send PATCH</button>
+        <button id="deleteButton" type="button" class="danger">Send DELETE</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Response</h2>
+      <p id="message" role="status">Ready to send a request.</p>
+      <p id="statusCode" class="status-code">HTTP status: —</p>
+      <pre id="responseOutput">The API response will appear here.</pre>
+    </section>
+  </main>
+</body>
+</html>

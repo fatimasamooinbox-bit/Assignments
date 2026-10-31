@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #202938; background: #f3f6fb; line-height: 1.5; }
+.hero { text-align: center; padding: 38px 16px; background: #183b67; color: white; }
+.hero h1 { margin: 5px 0; font-size: clamp(1.8rem, 5vw, 2.7rem); }
+.hero p { margin: 7px 0 0; color: #dbeafe; }
+.eyebrow { font-size: .78rem; letter-spacing: 2px; font-weight: bold; }
+.container { width: min(850px, 92%); margin: 26px auto 45px; }
+.panel { background: white; padding: 22px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 4px 16px #172b4d10; }
+h2 { margin-top: 0; }
+label { display: block; font-weight: bold; margin: 12px 0 5px; }
+input, textarea { width: 100%; border: 1px solid #cbd5e1; border-radius: 7px; padding: 11px; font: inherit; }
+textarea { resize: vertical; }
+button { border: 0; border-radius: 7px; padding: 11px 15px; color: white; background: #2563eb; cursor: pointer; font-weight: bold; margin-top: 14px; }
+button:hover { filter: brightness(.93); }
+button:disabled { opacity: .55; cursor: wait; }
+.orange { background: #b45309; }
+.green { background: #047857; }
+.danger { background: #b91c1c; }
+.actions { display: flex; flex-wrap: wrap; gap: 9px; }
+.note { color: #64748b; }
+#message { font-weight: bold; }
+.status-code { color: #475569; }
+pre { padding: 16px; border-radius: 8px; background: #0f172a; color: #dbeafe; white-space: pre-wrap; overflow-wrap: anywhere; min-height: 90px; }
+.error { color: #b91c1c; }
+.success { color: #047857; }
+@media (max-width: 520px) { .panel { padding: 16px; } .actions button { flex: 1 1 100%; } }

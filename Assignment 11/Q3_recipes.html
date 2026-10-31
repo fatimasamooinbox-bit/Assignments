@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="Q3_recipes.css">
+  <script src="Q3_recipes.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">WHAT'S COOKING?</p>
+    <h1>Recipe Finder</h1>
+    <p>Discover a meal and see what goes into it.</p>
+  </header>
+  <main class="container">
+    <p id="statusMessage" class="status" role="status">Loading recipes...</p>
+    <p id="httpStatus" class="small">HTTP status: waiting...</p>
+    <section id="recipesGrid" class="grid" aria-label="Recipes"></section>
+    <section id="recipeDetails" class="details" aria-live="polite">
+      <p>Select a recipe to view its ingredients.</p>
+    </section>
+  </main>
+</body>
+</html>
