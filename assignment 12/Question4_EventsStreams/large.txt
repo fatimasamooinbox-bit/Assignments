@@ -1,0 +1,7 @@
+
+Student Ali registered successfully.
+Student Sara logged into the system.
+Student Ahmed downloaded course materials.
+Student Ayesha submitted an assignment.
+Student Usman completed a programming task.
+Student Fatima logged out successfully.

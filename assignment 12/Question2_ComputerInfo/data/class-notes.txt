@@ -1,0 +1,4 @@
+1. Node.js runs JavaScript outside the browser.
+2. npm is used to manage Node.js packages.
+3. Core modules provide built-in functionality.
+4. The fs module is used to manage files.
